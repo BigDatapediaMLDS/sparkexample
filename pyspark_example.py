@@ -14,3 +14,5 @@ rdd = spark.sparkContext.parallelize([1,2,3,4])
 print(rdd.collect())
 
 time.sleep(60)
+
+print("job completed successfully")
